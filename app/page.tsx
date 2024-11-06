@@ -23,7 +23,7 @@ export default function Home() {
           Terminus Calculator (BO6)
         </h1>
         <p className="text-lg mb-8">
-          Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Easter Egg math puzzle and save 5000 points/essence. Skip BEAM SMASHER cost with this simple calculator for Terminus map. Fast, accurate and free to use.
+          Free BO6 Terminus Calculator. Solve the terminal puzzle instantly and save 5000 essence.
         </p>
       </section>
 

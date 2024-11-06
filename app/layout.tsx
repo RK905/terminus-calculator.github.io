@@ -29,10 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-TG63FTSG" />
+      <GoogleTagManager gtmId="GTM-TZ4R96XP" />
       <head>
         {/* <MultitagScript /> */}
-        <ShareThisScript id="672ba513d01e2b0012552a27" />
+        <ShareThisScript id="672bb05a465baa001278e6f8" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAFAFA]`}>
         <div className="flex flex-col min-h-screen">

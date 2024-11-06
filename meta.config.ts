@@ -3,11 +3,11 @@
 import { Metadata } from "next";
 import { isDevelopment } from "./lib/utils";
 
-const siteTitle = "Terminus Calculator (BO6) - Save 5K Points";
+const siteTitle = "Terminus Calculator (BO6) - Free Easter Egg Puzzle Solver | Save 5K Points";
 const siteTitleTemplate = "Terminus Calculator (BO6)";
-const siteDescription = "Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Easter Egg math puzzle and save 5000 points/essence. Skip BEAM SMASHER cost with this simple calculator for Terminus map. Fast, accurate and free to use.";
+const siteDescription = "Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Research Office terminal puzzle and save 5000 points/essence. Simple, accurate and free terminal code calculator for Terminus map.";
 
-export const siteUrl = isDevelopment() ? "http://localhost:3000" : "https://terminus-calculator.github.io/";
+export const siteUrl = isDevelopment() ? "http://localhost:3000" : "https://terminuscalculator.com/";
 
 export const metaConfig: Metadata = {
     title: {
@@ -15,13 +15,9 @@ export const metaConfig: Metadata = {
         template: `%s | ${siteTitleTemplate}`,
     },
     description: siteDescription,
-    keywords: "terminus calculator, bo6 terminus calculator, black ops 6 zombies, easter egg solver, save 5k points terminus, beam smasher calculator, terminus puzzle solver, bo6 terminus math",
-    verification: {
-        google: 'lTwaQTJ2H6vMNYMUd9ooaLxzvssiGoQEuoRdsOYNX8g',
-    },
     openGraph: {
         title: siteTitle,
-        description: "Free calculator to solve Terminus Easter Egg puzzle. Save 5000 points in Black Ops 6 Zombies instantly.",
+        description: siteDescription,
         url: `${siteUrl}/`,
         siteName: siteTitle,
         images: [
