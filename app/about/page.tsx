@@ -1,8 +1,8 @@
-import { getTermsMetaConfig } from "@/meta.config";
+import { getAboutMetaConfig } from "@/meta.config";
 import { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
-    return getTermsMetaConfig();
+    return getAboutMetaConfig();
 }
 
 export default function AboutPage() {
