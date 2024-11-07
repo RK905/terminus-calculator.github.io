@@ -7,37 +7,77 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function TermsPage() {
     return (
-        <div className="max-w-4xl mx-auto  px-4 py-8 prose dark:prose-invert">
+        <div className="max-w-4xl mx-auto  px-4 py-8">
             <h1 className="text-3xl font-bold mb-6 text-center">Privacy Policy</h1>
-            <div className="space-y-4">
-                <section>
-                    <h2 className="text-xl font-semibold mb-2">1. Data Collection</h2>
-                    <p>The BO6 Terminus Calculator does not collect, store, or process any personal information. All calculations are performed locally in your browser.</p>
+
+            <div className="prose">
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Data Collection</h2>
+                    <p>
+                        The BO6 Terminus Calculator prioritizes your privacy. Here's how we handle data:
+                    </p>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold mb-2">2. Cookies</h2>
-                    <p>We do not use cookies or any other tracking technologies on our website.</p>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">What We Don't Collect</h2>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>Personal information</li>
+                        <li>User accounts or credentials</li>
+                        <li>Gameplay data</li>
+                        <li>IP addresses</li>
+                        <li>Browser information</li>
+                        <li>Usage statistics</li>
+                    </ul>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold mb-2">3. Third-Party Services</h2>
-                    <p>Our website may use basic analytics tools to understand overall usage patterns. These services may collect anonymous usage data.</p>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Our Commitment</h2>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>No data storage: All calculations are performed locally in your browser</li>
+                        <li>No cookies: We don't use cookies or tracking technologies</li>
+                        <li>No third-party sharing: We don't share any information because we don't collect any</li>
+                        <li>No analytics: We don't track user behavior or usage patterns</li>
+                    </ul>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold mb-2">4. Children's Privacy</h2>
-                    <p>Our service is available to all users and does not knowingly collect any information from anyone, including children under 13.</p>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Technical Operation</h2>
+                    <p>
+                        The Terminus Calculator operates entirely within your web browser. Each calculation is processed locally, meaning:
+                    </p>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>No data is sent to our servers</li>
+                        <li>No information is stored between sessions</li>
+                        <li>No personal data is required for operation</li>
+                    </ul>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold mb-2">5. Contact</h2>
-                    <p>If you have any questions about this privacy policy, you can contact us through our provided contact methods.</p>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Third-Party Services</h2>
+                    <p>
+                        Our website does not integrate with any third-party services that might collect user data. We don't use:
+                    </p>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>Analytics tools</li>
+                        <li>Advertising networks</li>
+                        <li>Social media plugins</li>
+                        <li>User tracking systems</li>
+                    </ul>
                 </section>
-            </div>
 
-            <div className="mt-8 text-sm text-gray-600">
-                Last updated: November 7, 2024
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Contact</h2>
+                    <p>
+                        For privacy-related questions:<br />
+                        <a href="mailto:contact@terminuscalculator.com" className="text-blue-600 hover:text-blue-800">
+                            contact@terminuscalculator.com
+                        </a>
+                    </p>
+                </section>
+
+                <p className="text-sm text-gray-600 mt-8">
+                    Last Updated: November 2024
+                </p>
             </div>
         </div>
     )

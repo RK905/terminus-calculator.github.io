@@ -10,71 +10,61 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto  px-4 py-8 prose dark:prose-invert">
             <h1 className="text-3xl font-bold mb-6 text-center">About Terminus Calculator</h1>
 
-            <div className="space-y-6 text-gray-700">
-                <section>
-                    <h2 className="text-xl font-semibold text-[#374151] mb-3">Our Mission</h2>
-                    <p>
-                        Terminus Calculator was created to help Black Ops 6 players solve the Research Office terminal puzzle quickly and accurately. Our goal is to save players' time and in-game resources with a reliable, easy-to-use tool.
-                    </p>
-                </section>
+            <div className="">
+                <p className="mb-6">
+                    The Terminus Calculator is a specialized online tool designed for Black Ops 6 players tackling the Research Office puzzle. Born from the gaming community's need for quick and accurate solutions, this calculator helps players save valuable resources and time during their gameplay sessions.
+                </p>
 
-                <section>
-                    <h2 className="text-xl font-semibold text-[#374151] mb-3">What We Offer</h2>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Our free BO6 Terminus Calculator features:</h2>
                     <ul className="list-disc pl-5 space-y-2">
-                        <li>Free and instant access to accurate puzzle solutions</li>
-                        <li>Mobile-friendly design for convenient use during gameplay</li>
-                        <li>Regular updates to maintain accuracy with game patches</li>
-                        <li>Clear, user-friendly interface for quick results</li>
+                        <li>Instant terminal code calculations</li>
+                        <li>Mobile-friendly interface for easy use during gameplay</li>
+                        <li>Regular updates to maintain accuracy</li>
+                        <li>Simple symbol-matching system</li>
+                        <li>Community-tested formulas</li>
+                        <li>No registration required</li>
                     </ul>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold text-[#374151] mb-3">Why Trust Us</h2>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">How the Terminus Calculator Works</h2>
                     <p>
-                        Our calculator has been thoroughly tested by experienced players to ensure 100% accuracy. We maintain the tool regularly and update it promptly with any game changes to provide reliable results every time.
+                        Input the three symbols you find at the Research Office terminal into our calculator's X, Y, and Z sections. The calculator instantly processes these symbols using verified formulas to generate the exact numerical sequence needed for the terminal puzzle.
                     </p>
                 </section>
 
-                <section>
-                    <h2 className="text-xl font-semibold text-[#374151] mb-3">Community Contribution</h2>
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Why Use Our Calculator</h2>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>Save time and resources on puzzle solving</li>
+                        <li>Get accurate results every time</li>
+                        <li>Access from any device</li>
+                        <li>No downloads needed</li>
+                        <li>Always free to use</li>
+                    </ul>
+                </section>
+
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Community Support</h2>
                     <p>
-                        As passionate gamers ourselves, we understand the importance of community tools. That's why we've made this calculator completely free and continue to improve it based on player feedback.
+                        The Terminus Calculator is maintained by dedicated players who understand the importance of reliable tools for the gaming community. We regularly test and verify our calculations to ensure consistent accuracy with game updates.
                     </p>
                 </section>
 
-                <section className="bg-gray-50 p-6 rounded-lg mt-8">
-                    <h2 className="text-xl font-semibold text-[#374151] mb-3">Contact Us</h2>
-                    <p className="mb-4">
-                        Have questions, suggestions, or found a bug? We'd love to hear from you!
-                    </p>
-                    <div className="flex items-center space-x-2">
-                        <svg
-                            className="w-5 h-5 text-gray-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                            />
-                        </svg>
-                        <a
-                            href="mailto:contact@terminuscalculator.com"
-                            className="text-[#5436DA] hover:text-[#7B61FF] transition-colors"
-                        >
-                            contact@terminuscalculator.com
+                <section className="mb-8">
+                    <h2 className="text-xl font-bold mb-3">Contact Us</h2>
+                    <p>
+                        For questions, feedback, or support, reach out to us at <span> </span>
+                        <a href="https://github.com/terminus-calculator/terminus-calculator.github.io/issues">
+                            github issues
                         </a>
-                    </div>
+                    </p>
                 </section>
 
-                <footer className="text-sm text-gray-500 mt-8">
-                    <p>
-                        Note: Terminus Calculator is a fan-made tool and is not affiliated with, endorsed by, or connected to any game publishers or developers.
-                    </p>
-                </footer>
+                <p className="text-sm text-gray-600 mt-8">
+                    Note: This is a fan-made tool created to help the gaming community. We are not affiliated with any game developers or publishers.
+                </p>
             </div>
         </div>
     )

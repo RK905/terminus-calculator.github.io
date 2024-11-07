@@ -17,12 +17,12 @@ const TerminusCalculator = () => {
     });
 
     const symbols = [
-        { value: 0, image: "symbols-01.jpg" },
-        { value: 10, image: "symbols-02.jpg" },
-        { value: 11, image: "symbols-03.jpg" },
-        { value: 20, image: "symbols-04.jpg" },
-        { value: 21, image: "symbols-05.jpg" },
-        { value: 22, image: "symbols-06.jpg" }
+        { value: 0, image: "symbols-01.jpeg" },
+        { value: 10, image: "symbols-02.jpeg" },
+        { value: 11, image: "symbols-03.jpeg" },
+        { value: 20, image: "symbols-04.jpeg" },
+        { value: 21, image: "symbols-05.jpeg" },
+        { value: 22, image: "symbols-06.jpeg" }
     ];
 
     const handleVariableSelect = (variable: VariableKey, value: number) => {
@@ -61,7 +61,7 @@ const TerminusCalculator = () => {
                     {(['x', 'y', 'z'] as const).map((variable) => (
                         <Card key={variable} className="bg-white shadow-sm border-0">
                             <CardHeader>
-                                <CardTitle className="text-xl text-[#374151] text-center uppercase">
+                                <CardTitle className="text-xl text-gray-800 text-center uppercase">
                                     {variable}
                                 </CardTitle>
                             </CardHeader>
@@ -88,7 +88,7 @@ const TerminusCalculator = () => {
                 </div>
 
                 <div className="bg-[#F3F4F6] rounded-2xl p-8">
-                    <h2 className="text-2xl text-[#374151] text-center mb-8">Answer:</h2>
+                    <h2 className="text-2xl text-gray-800 text-center mb-8">Answer</h2>
                     <div className="flex justify-center items-center gap-12">
                         {[
                             { value: results.result1 },

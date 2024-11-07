@@ -18,12 +18,12 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="text-center px-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-[#374151] mb-4">
+      <section className="max-w-4xl mx-auto text-center px-4 py-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           Terminus Calculator (BO6)
         </h1>
         <p className="text-lg mb-8">
-          Free BO6 Terminus Calculator. Solve the terminal puzzle instantly and save 5000 essence.
+          A free calculator for solving the Research Office terminal codes in BO6 Terminus map. Match the symbols to instantly get your sequence.
         </p>
       </section>
 
@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Tutorial Video Section */}
       <section className="mb-12 px-4">
-        <h2 className="text-2xl font-bold text-center mb-6">How to Use BO6 Terminus Calculator</h2>
+        <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">How to Use Terminus Calculator (BO6)</h2>
         <div className="max-w-3xl mx-auto"> {/* 添加这个容器 */}
           <YouTubeEmbed videoid="kJYTyNwMyQE" />
         </div>
