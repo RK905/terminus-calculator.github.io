@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-TZ4R96XP" />
+      <GoogleTagManager gtmId="GTM-TG63FTSG" />
       <head>
         {/* <MultitagScript /> */}
         <ShareThisScript id="672bb05a465baa001278e6f8" />
