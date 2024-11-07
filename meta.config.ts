@@ -7,7 +7,7 @@ const siteTitle = "Terminus Calculator (BO6) - Free Easter Egg Puzzle Solver | S
 const siteTitleTemplate = "Terminus Calculator (BO6)";
 const siteDescription = "Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Research Office terminal puzzle and save 5000 points/essence. Simple, accurate and free terminal code calculator for Terminus map.";
 
-export const siteUrl = isDevelopment() ? "http://localhost:3000" : "https://terminuscalculator.com/";
+export const siteUrl = isDevelopment() ? "http://localhost:3000" : "https://terminuscalculator.com";
 
 export const metaConfig: Metadata = {
     title: {
@@ -52,12 +52,12 @@ export function getAboutMetaConfig(): Metadata {
         title: title,
         description: description,
         alternates: {
-            canonical: `${siteUrl}/terms`,
+            canonical: `${siteUrl}/about`,
         },
         openGraph: {
             title: `${title} | ${siteTitleTemplate}`,
             description: description,
-            url: `${siteUrl}/terms`,
+            url: `${siteUrl}/about`,
             siteName: siteTitle,
             images: [
                 {
