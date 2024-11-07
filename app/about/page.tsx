@@ -7,10 +7,10 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function AboutPage() {
     return (
-        <div className="max-w-4xl mx-auto  px-4 py-8 prose dark:prose-invert">
+        <div className="max-w-4xl mx-auto  px-4 py-8">
             <h1 className="text-3xl font-bold mb-6 text-center">About Terminus Calculator</h1>
 
-            <div className="">
+            <div className="prose">
                 <p className="mb-6">
                     The Terminus Calculator is a specialized online tool designed for Black Ops 6 players tackling the Research Office puzzle. Born from the gaming community's need for quick and accurate solutions, this calculator helps players save valuable resources and time during their gameplay sessions.
                 </p>

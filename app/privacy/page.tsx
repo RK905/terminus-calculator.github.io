@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function TermsPage() {
     return (
-        <div className="max-w-4xl mx-auto  px-4 py-8">
+        <div className="max-w-4xl mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-6 text-center">Privacy Policy</h1>
 
             <div className="prose">
@@ -63,16 +63,6 @@ export default function TermsPage() {
                         <li>Social media plugins</li>
                         <li>User tracking systems</li>
                     </ul>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-xl font-bold mb-3">Contact</h2>
-                    <p>
-                        For privacy-related questions:<br />
-                        <a href="mailto:contact@terminuscalculator.com" className="text-blue-600 hover:text-blue-800">
-                            contact@terminuscalculator.com
-                        </a>
-                    </p>
                 </section>
 
                 <p className="text-sm text-gray-600 mt-8">
