@@ -16,6 +16,9 @@ export const metaConfig: Metadata = {
     },
     description: siteDescription,
     keywords: "terminus calculator, bo6 calculator, black ops 6 zombies, easter egg solver, save 5k points terminus, beam smasher calculator, terminus puzzle solver, bo6 terminus math",
+    verification: {
+        google: 'lTwaQTJ2H6vMNYMUd9ooaLxzvssiGoQEuoRdsOYNX8g',
+    },
     openGraph: {
         title: siteTitle,
         description: siteDescription,
