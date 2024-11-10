@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { metaConfig } from "@/meta.config";
 import ShareThisScript from "@/components/script/ShareThisScript";
 import { GoogleTagManager } from "@next/third-parties/google";
+import AdSense from "@/components/script/AdSense";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-TG63FTSG" />
       <head>
         {/* <MultitagScript /> */}
+        <AdSense pid="7105881377542983" />
         <ShareThisScript id="672bb05a465baa001278e6f8" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAFAFA]`}>
