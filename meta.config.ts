@@ -3,7 +3,7 @@
 import { Metadata } from "next";
 import { isDevelopment } from "./lib/utils";
 
-const siteTitle = "Terminus Calculator (BO6) - Save 5K Points";
+const siteTitle = "Terminus Calculator (BO6) | Code Solver & Easter Egg Guide";
 const siteTitleTemplate = "Terminus Calculator (BO6)";
 const siteDescription = "Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Easter Egg math puzzle and save 5000 points/essence. Skip BEAM SMASHER cost with this simple calculator for Terminus map. Fast, accurate and free to use.";
 
@@ -15,7 +15,7 @@ export const metaConfig: Metadata = {
         template: `%s | ${siteTitleTemplate}`,
     },
     description: siteDescription,
-    keywords: "terminus calculator, bo6 calculator, black ops 6 zombies, easter egg solver, save 5k points terminus, beam smasher calculator, terminus puzzle solver, bo6 terminus math",
+    keywords: "terminus calculator, terminus code calculator, bo6 terminus calculator, terminus easter egg calculator, terminus xyz calculator, black ops 6 zombies, easter egg solver, save 5k points terminus, beam smasher calculator, terminus puzzle solver, bo6 terminus math",
     verification: {
         google: 'lTwaQTJ2H6vMNYMUd9ooaLxzvssiGoQEuoRdsOYNX8g',
     },

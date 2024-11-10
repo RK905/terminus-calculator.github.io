@@ -34,7 +34,7 @@ export default function RootLayout({
       <head>
         {/* <MultitagScript /> */}
         <AdSense pid="7105881377542983" />
-        <ShareThisScript id="672bb05a465baa001278e6f8" />
+        <ShareThisScript id="672ba513d01e2b0012552a27" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAFAFA]`}>
         <div className="flex flex-col min-h-screen">
