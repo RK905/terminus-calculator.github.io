@@ -125,7 +125,7 @@ const LaptopGuidePage = () => {
                 <div className="bg-blue-50 p-6 rounded-lg my-6 not-prose">
                     <h4 className="font-bold text-lg mb-4">Quick Solution Steps:</h4>
                     <ol className="list-decimal list-inside space-y-2">
-                        <li>Visit our <Link href="/calculator" className="text-blue-600 hover:underline">Terminus Calculator</Link></li>
+                        <li>Visit our <Link href="/" className="text-blue-600 hover:underline">Terminus Calculator</Link></li>
                         <li>Input the values you collected from each laptop into the corresponding X, Y, Z fields</li>
                         <li>Click "Calculate" to instantly get your results</li>
                         <li>Use these results in the Research Office computer</li>
