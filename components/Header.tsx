@@ -20,7 +20,7 @@ const Header = () => {
                 </Link>
                 <nav className="hidden md:flex">
                     <ul className="flex space-x-4">
-                        {/* <li><Button variant="ghost" asChild><Link href="/">Home</Link></Button></li> */}
+                        <li><Button variant="ghost" asChild><Link href="/guides">BO6 Guides</Link></Button></li>
                         <li><Button variant="ghost" asChild><Link href="/about">About</Link></Button></li>
                     </ul>
                 </nav>

@@ -129,3 +129,31 @@ export function getPrivacyMetaConfig(): Metadata {
         }
     }
 }
+
+export function getGuidesMetaConfig(): Metadata {
+    const title = "BO6 Guides & Tutorials";
+    const description = "Complete collection of guides and tutorials for Black Ops 6, including Terminus Calculator guides, easter eggs, and gameplay tips."
+    return {
+        title: title,
+        description: description,
+        keywords: "",
+        alternates: {
+            canonical: `${siteUrl}/guides`,
+        },
+        openGraph: {
+            title: `${title} | ${siteTitleTemplate}`,
+            description: description,
+            url: `${siteUrl}/guides`,
+            siteName: siteTitle,
+            images: [
+                {
+                    url: `${siteUrl}/logo.svg`,
+                    width: 512,
+                    height: 512,
+                    alt: siteTitle,
+                },
+            ],
+            type: 'website',
+        }
+    }
+}

@@ -1,6 +1,9 @@
 // app/page.tsx
 
+import Benefits from "@/components/Benefits";
 import FAQ from "@/components/FAQ";
+import HowItWorks from "@/components/HowItWorks";
+import LatestGuides from "@/components/LatestGuides";
 import TerminusCalculator from "@/components/TerminusCalculator";
 import { siteUrl } from "@/meta.config";
 import { YouTubeEmbed } from "@next/third-parties/google";
@@ -35,15 +38,30 @@ export default function Home() {
         <TerminusCalculator />
       </section>
 
+      {/* How it Works Section */}
+      <section className="mb-12">
+        <HowItWorks />
+      </section>
+
       {/* Tutorial Video Section */}
       <section className="mb-12 px-4">
-        <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">How to Use Terminus Calculator (BO6)</h2>
+        <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">How to Use Terminus Calculator (BO6) - Video Guide</h2>
         <div className="max-w-3xl mx-auto">
           <YouTubeEmbed videoid="kJYTyNwMyQE" />
         </div>
         <div className="mt-4 text-sm text-gray-600 text-center">
           Watch our step-by-step guide on solving the Terminus Easter Egg puzzle
         </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="mb-12 px-4">
+        <Benefits />
+      </section>
+
+      {/* LatestGuides Section */}
+      <section className="mb-12 px-4">
+        <LatestGuides />
       </section>
 
       {/* FAQ Section */}
