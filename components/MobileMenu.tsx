@@ -3,7 +3,6 @@
 'use client'
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronRight } from "lucide-react";
@@ -33,13 +32,13 @@ const MobileMenu: React.FC = () => {
         <div className="flex flex-col h-full">
           <SheetHeader className="p-4 border-b">
             <SheetTitle>
-              <Link href="/" className="flex items-center" onClick={() => setOpen(false)}>
+              <a href="/" className="flex items-center" onClick={() => setOpen(false)}>
                 <img
                   src="/logo.png"
                   className="h-[40px] w-auto object-contain mr-2"
                   alt="classroom 6x logo"
                 />
-              </Link>
+              </a>
             </SheetTitle>
           </SheetHeader>
           <div className="p-4 border-b">

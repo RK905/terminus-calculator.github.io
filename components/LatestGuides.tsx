@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { Clock } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/posts';
 
@@ -20,7 +19,7 @@ const FeaturedGuides = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {posts.map(({ id, date, title, image, readTime, description }) => (
-            <Link
+            <a
               href={`/guides/${id}`}
               key={id}
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group"
@@ -53,17 +52,17 @@ const FeaturedGuides = () => {
                   </span>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
 
         {/* <div className="mt-8 text-center">
-          <Link
+          <a
             href="/guides"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300"
           >
             View All Guides
-          </Link>
+          </a>
         </div> */}
       </div>
     </section>

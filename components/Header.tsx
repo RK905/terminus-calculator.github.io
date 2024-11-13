@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="border-b">
             <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-                <Link href="/" className="flex items-center">
+                <a href="/" className="flex items-center">
                     <Image
                         src="/logo.svg"
                         alt="Dowry Calculator Icon"
@@ -17,11 +17,11 @@ const Header = () => {
                         className="mr-2"
                     />
                     <span className="text-2xl font-bold">Terminus Calculator</span>
-                </Link>
+                </a>
                 <nav className="hidden md:flex">
                     <ul className="flex space-x-4">
-                        <li><Button variant="ghost" asChild><Link href="/guides">BO6 Guides</Link></Button></li>
-                        <li><Button variant="ghost" asChild><Link href="/about">About</Link></Button></li>
+                        <li><Button variant="ghost" asChild><a href="/guides">BO6 Guides</a></Button></li>
+                        <li><Button variant="ghost" asChild><a href="/about">About</a></Button></li>
                     </ul>
                 </nav>
                 {/* <div className="hidden md:flex">

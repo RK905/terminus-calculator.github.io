@@ -12,9 +12,9 @@ const Footer = () => {
                     </div>
                     <nav>
                         <ul className="flex space-x-4">
-                            <li><Link href="/terms" className="hover:underline">Terms of Service</Link></li>
-                            <li><Link href="/privacy" className="hover:underline">Privacy Policy</Link></li>
-                            {/* <li><Link href="/contact" className="hover:underline">Contact Us</Link></li> */}
+                            <li><a href="/terms" className="hover:underline">Terms of Service</a></li>
+                            <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
+                            {/* <li><a href="/contact" className="hover:underline">Contact Us</Link></li> */}
                         </ul>
                     </nav>
                 </div>

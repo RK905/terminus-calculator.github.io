@@ -1,7 +1,6 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import { getSortedPostsData } from '@/lib/posts';
 import { Clock } from 'lucide-react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 interface BlogPost {
@@ -37,7 +36,7 @@ export default function BlogIndex() {
             {/* Guides Grid */}
             <div className="grid md:grid-cols-2 gap-8">
                 {allPostsData.map(({ id, date, title, image, readTime, description }) => (
-                    <Link
+                    <a
                         href={`/guides/${id}`}
                         key={id}
                         className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group"
@@ -76,7 +75,7 @@ export default function BlogIndex() {
                                 </time>
                             </div>
                         </div>
-                    </Link>
+                    </a>
                 ))}
             </div>
         </div>
