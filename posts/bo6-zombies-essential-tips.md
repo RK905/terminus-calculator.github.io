@@ -6,8 +6,6 @@ readTime: "10 min"
 description: "Master Zombies mode in Black Ops 6 with our comprehensive guide covering essential tips, weapon strategies, and survival tactics."
 ---
 
-<!-- ![BO6 Zombies Mode Gameplay](https://terminus-caluclator.github.io/images/bo6-zombies-guide.jpeg) -->
-
 Master the Zombies mode in Call of Duty: Black Ops 6 (BO6) with our comprehensive guide. Whether you're a beginner or experienced player, these essential tips and strategies will help you survive longer and complete objectives more efficiently.
 
 ## Essential Zombies Tips and Tricks

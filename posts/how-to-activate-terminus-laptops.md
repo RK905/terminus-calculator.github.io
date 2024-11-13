@@ -6,8 +6,6 @@ readTime: "5 min"
 description: "Complete guide to finding and activating laptops in the Terminus map. Learn exact locations, step-by-step activation process, and how to use the Terminus Calculator for solving XYZ equations in BO6 Zombies."
 ---
 
-<!-- ![Terminus Map Laptop Locations](https://terminus-caluclator.github.io/images/terminus-map.jpeg) -->
-
 To activate the laptops around the **Terminus** map in _Call of Duty: Black Ops 6_ (BO6) Zombies, follow these detailed steps:
 
 ## Step-by-Step Guide to Activating Laptops
@@ -34,7 +32,7 @@ After activating all three laptops, you will have three symbols and their associ
 
 **Quick Solution Steps:**
 
-- Visit our [Terminus Calculator](https://terminus-caluclator.github.io/)
+- Visit our [Terminus Calculator](https://terminus-calculator.github.io/)
 - Input the values you collected from each laptop into the corresponding X, Y, Z fields
 - Click "Calculate" to instantly get your results
 - Use these results in the Research Office computer
