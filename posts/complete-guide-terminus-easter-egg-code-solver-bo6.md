@@ -6,8 +6,6 @@ readTime: "5 min"
 description: "Master the Terminus Easter Egg code in Black Ops 6 with our comprehensive guide. Learn how to solve math puzzles efficiently using the online calculator and step-by-step solutions."
 ---
 
-# Complete Guide: Terminus Easter Egg Code Solver for Black Ops 6 Zombies
-
 The Terminus Easter Egg in *Call of Duty: Black Ops 6* presents players with challenging mathematical puzzles that require precise solutions. This comprehensive guide will help you efficiently solve these codes and progress through the Easter Egg quest.
 
 ## Understanding the Terminus Code Challenge
