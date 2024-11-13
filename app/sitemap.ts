@@ -1,3 +1,4 @@
+import { getSortedPostsData } from "@/lib/posts";
 import { siteUrl } from "@/meta.config";
 import { MetadataRoute } from "next";
 
@@ -33,20 +34,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.9,
-        },
-        {
-            url: `${siteUrl}/guides/bo6-zombies-essential-tips`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.9,
-        },
-        {
-            url: `${siteUrl}/guides/how-to-activate-terminus-laptops`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.9,
-        },
+        }
     ];
 
-    return [...base];
+    const posts: MetadataRoute.Sitemap = getSortedPostsData().map(post => ({
+        url: `${siteUrl}/guides/${post.id}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+    }))
+
+    return [...base, ...posts];
 }

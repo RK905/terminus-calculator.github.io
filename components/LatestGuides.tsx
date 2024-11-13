@@ -1,28 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Clock, Target, Star } from 'lucide-react';
+import { Clock } from 'lucide-react';
+import { getSortedPostsData } from '@/lib/posts';
 
 const FeaturedGuides = () => {
-  const guides = [
-    {
-      title: "How to Activate Laptops in Terminus Map - BO6 Guide",
-      slug: "how-to-activate-terminus-laptops",
-      description: "Complete guide to finding and activating laptops in the Terminus map. Learn exact locations, step-by-step activation process, and how to use the Terminus Calculator for solving XYZ equations in BO6 Zombies.",
-      image: "/images/terminus-map.jpeg",
-      readTime: "5 min",
-      difficulty: "Beginner",
-      featured: true
-    },
-    {
-      title: "Essential Tips for BO6 Zombies Mode - Complete Guide",
-      slug: "bo6-zombies-essential-tips",
-      description: "Master BO6 Zombies mode with our essential tips and strategies. Learn about herding zombies, weapon management, movement techniques, and crucial survival tactics for both beginners and experienced players.",
-      image: "/images/bo6-zombies-guide.jpeg",
-      readTime: "10 min",
-      difficulty: "Advanced",
-      featured: true
-    }
-  ];
+
+  const posts = getSortedPostsData().slice(0, 4);
 
   return (
     <section className="px-4 bg-gray-50">
@@ -36,36 +19,34 @@ const FeaturedGuides = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {guides.map((guide, index) => (
+          {posts.map(({ id, date, title, image, readTime, description }) => (
             <Link
-              href={`/guides/${guide.slug}`}
-              key={index}
+              href={`/guides/${id}`}
+              key={id}
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden group"
             >
               <div className="relative w-full aspect-video">
                 <Image
-                  src={guide.image}
-                  alt={`${guide.title} - BO6 Terminus Guide`}
+                  src={image}
+                  alt={`${title} - BO6 Terminus Guide`}
                   fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
 
               <div className="p-6">
-
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                  {guide.title}
+                  {title}
                 </h3>
 
                 <p className="text-gray-600 mb-4">
-                  {guide.description}
+                  {description}
                 </p>
 
                 <div className="flex items-center justify-between text-sm text-gray-500">
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4" />
-                    <span>{guide.readTime} read</span>
+                    <span>{readTime} read</span>
                   </div>
                   <span className="text-blue-600 font-medium group-hover:text-blue-700">
                     Read Guide →
