@@ -7,31 +7,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const base: MetadataRoute.Sitemap = [
         {
             url: `${siteUrl}/`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString().split('T')[0],
             changeFrequency: 'daily',
             priority: 1,
         },
         {
             url: `${siteUrl}/terms`,
-            lastModified: new Date(),
+            lastModified: '2024-11-11',
             changeFrequency: 'monthly',
             priority: 1,
         },
         {
             url: `${siteUrl}/privacy`,
-            lastModified: new Date(),
+            lastModified: '2024-11-11',
             changeFrequency: 'monthly',
             priority: 1,
         },
         {
             url: `${siteUrl}/about`,
-            lastModified: new Date(),
+            lastModified: '2024-11-11',
             changeFrequency: 'monthly',
             priority: 1,
         },
         {
             url: `${siteUrl}/guides`,
-            lastModified: new Date(),
+            lastModified: '2024-11-13',
             changeFrequency: 'daily',
             priority: 0.9,
         }
@@ -39,7 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     const posts: MetadataRoute.Sitemap = getSortedPostsData().map(post => ({
         url: `${siteUrl}/guides/${post.id}`,
-        lastModified: new Date(post.date),
+        lastModified: post.date,
         changeFrequency: 'weekly',
         priority: 0.8,
     }))
