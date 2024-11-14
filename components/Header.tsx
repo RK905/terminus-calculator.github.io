@@ -1,6 +1,5 @@
 // components/Header.tsx
 
-import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
@@ -19,6 +18,14 @@ const Header = () => {
                     <span className="text-2xl font-bold">Terminus Calculator</span>
                 </a>
                 <nav className="hidden md:flex">
+                    <a href="https://sprunki-incredibox.io/" title="Sprunki Incredibox" target="_blank" className="px-4">
+                        <Image
+                            src="/sprunki-incredibox.png"
+                            alt="Sprunki Incredibox"
+                            width={32}
+                            height={32} />
+                    </a>
+
                     <ul className="flex space-x-4">
                         <li><Button variant="ghost" asChild><a href="/guides">BO6 Guides</a></Button></li>
                         <li><Button variant="ghost" asChild><a href="/about">About</a></Button></li>
