@@ -10,7 +10,7 @@ const Header = () => {
                 <a href="/" className="flex items-center">
                     <Image
                         src="/logo.svg"
-                        alt="Dowry Calculator Icon"
+                        alt="Terminus Calculator Icon"
                         width={32}
                         height={32}
                         className="mr-2"
@@ -18,6 +18,13 @@ const Header = () => {
                     <span className="text-2xl font-bold">Terminus Calculator</span>
                 </a>
                 <nav className="hidden md:flex">
+                    <a href="https://camelcalculator.org/" title="Camel Calculator" target="_blank" className="px-4">
+                        <Image
+                            src="/camel-calculator.png"
+                            alt="Camel Calculator"
+                            width={32}
+                            height={32} />
+                    </a>
                     <a href="https://sprunki-incredibox.io/" title="Sprunki Incredibox" target="_blank" className="px-4">
                         <Image
                             src="/sprunki-incredibox.png"

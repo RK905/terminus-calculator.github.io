@@ -3,20 +3,36 @@
 import Link from "next/link";
 
 const Footer = () => {
+    const links = [
+        { name: 'Terms of Service', href: '/terms', external: false },
+        { name: 'Privacy Policy', href: '/privacy', external: false },
+        { name: 'Camel Calculator', href: 'https://camelcalculator.org/', external: true },
+        { name: 'Sprunki Incredibox', href: 'https://sprunki-incredibox.io/', external: true },
+        // 以后可以轻松添加更多链接
+    ];
+
     return (
-        <footer className="border-t">
-            <div className="max-w-5xl mx-auto px-4 py-6">
-                <div className="flex flex-col md:flex-row justify-between items-center">
-                    <div className="mb-4 md:mb-0">
-                        <p>&copy; {new Date().getFullYear()} Terminus Calculator. All rights reserved.</p>
-                    </div>
-                    <nav>
-                        <ul className="flex space-x-4">
-                            <li><a href="/terms" className="hover:underline">Terms of Service</a></li>
-                            <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
-                            {/* <li><a href="/contact" className="hover:underline">Contact Us</Link></li> */}
-                        </ul>
-                    </nav>
+        <footer className="border-t bg-gray-50">
+            <div className="max-w-5xl mx-auto px-4 py-8">
+                {/* Copyright section */}
+                <div className="text-center text-sm text-gray-500 mb-4">
+                    © 2024 Your Company. All rights reserved.
+                </div>
+
+                {/* Links section */}
+                <div className="flex flex-wrap justify-center gap-4">
+                    {links.map((link) => (
+                        <a
+                            key={link.name}
+                            href={link.href}
+                            className="text-gray-600 hover:text-gray-900 transition-colors"
+                            {...(link.external && {
+                                target: "_blank",
+                            })}
+                        >
+                            {link.name}
+                        </a>
+                    ))}
                 </div>
             </div>
         </footer>
