@@ -8,7 +8,7 @@ const Footer = () => {
         { name: 'Privacy Policy', href: '/privacy', external: false },
         { name: 'Camel Calculator', href: 'https://camelcalculator.org/', external: true },
         { name: 'Sprunki Incredibox', href: 'https://sprunki-incredibox.io/', external: true },
-        // 以后可以轻松添加更多链接
+        { name: 'Headcanon Generator', href: 'https://headcanon-generator.org/', external: true },
     ];
 
     return (
