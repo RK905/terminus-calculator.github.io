@@ -157,3 +157,39 @@ export function getGuidesMetaConfig(): Metadata {
         }
     }
 }
+
+export function getGuidesMetaConfig(): Metadata {
+    return {
+        title: 'BO6 Terminus Calculator Guides & Tutorials | Math Solutions',
+        description: 'Comprehensive guides for Terminus Calculator, including BO6 math solutions, easter eggs, equation calculator tutorials, and gameplay strategies. Master the Terminus math calculator with our detailed walkthroughs.',
+        keywords: [
+            'terminus calculator',
+            'bo6 terminus',
+            'bo6 terminus calculator',
+            'bo6 calculator',
+            'easter egg terminus',
+            'terminus code',
+            'equation calculator',
+            'terminus equation calculator',
+            'terminus equation',
+            'math calculator',
+            'terminus math',
+            'terminus math calculator'
+        ],
+        openGraph: {
+            title: 'BO6 Terminus Calculator Guides & Tutorials',
+            description: 'Complete guides and tutorials for Terminus Calculator - Your ultimate resource for BO6 math solutions and gameplay strategies.',
+            url: `${siteUrl}/privacy`,
+            siteName: siteTitle,
+            images: [
+                {
+                    url: `${siteUrl}/logo.svg`,
+                    width: 512,
+                    height: 512,
+                    alt: siteTitle,
+                },
+            ],
+            type: 'website',
+        }
+    };
+}
