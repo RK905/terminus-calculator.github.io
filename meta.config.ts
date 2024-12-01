@@ -131,34 +131,6 @@ export function getPrivacyMetaConfig(): Metadata {
 }
 
 export function getGuidesMetaConfig(): Metadata {
-    const title = "BO6 Guides & Tutorials";
-    const description = "Complete collection of guides and tutorials for Black Ops 6, including Terminus Calculator guides, easter eggs, and gameplay tips."
-    return {
-        title: title,
-        description: description,
-        keywords: "",
-        alternates: {
-            canonical: `${siteUrl}/guides`,
-        },
-        openGraph: {
-            title: `${title} | ${siteTitleTemplate}`,
-            description: description,
-            url: `${siteUrl}/guides`,
-            siteName: siteTitle,
-            images: [
-                {
-                    url: `${siteUrl}/logo.svg`,
-                    width: 512,
-                    height: 512,
-                    alt: siteTitle,
-                },
-            ],
-            type: 'website',
-        }
-    }
-}
-
-export function getGuidesMetaConfig(): Metadata {
     return {
         title: 'BO6 Terminus Calculator Guides & Tutorials | Math Solutions',
         description: 'Comprehensive guides for Terminus Calculator, including BO6 math solutions, easter eggs, equation calculator tutorials, and gameplay strategies. Master the Terminus math calculator with our detailed walkthroughs.',
