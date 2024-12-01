@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="max-w-5xl mx-auto px-4 py-8">
                 {/* Copyright section */}
                 <div className="text-center text-sm text-gray-500 mb-4">
-                    © 2024 Your Company. All rights reserved.
+                    © 2024 Terminus Calculator. All rights reserved.
                 </div>
 
                 {/* Links section */}
