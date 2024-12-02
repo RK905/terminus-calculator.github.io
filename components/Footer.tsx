@@ -6,8 +6,7 @@ const Footer = () => {
     const links = [
         { name: 'Terms of Service', href: '/terms', external: false },
         { name: 'Privacy Policy', href: '/privacy', external: false },
-        { name: 'Camel Calculator', href: 'https://camelcalculator.org/', external: true },
-        { name: 'Sprunki Incredibox', href: 'https://sprunki-incredibox.io/', external: true },
+        { name: 'Sprunki Kissing Mod', href: 'https://sprunki-incredibox.io/game/sprunki-kissing-mod', external: true },
         { name: 'Headcanon Generator', href: 'https://headcanon-generator.org/', external: true },
     ];
 
