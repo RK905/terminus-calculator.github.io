@@ -1,3 +1,4 @@
+import BannerAd from '@/components/BannerAd';
 import Breadcrumb from '@/components/Breadcrumb';
 import { getSortedPostsData } from '@/lib/posts';
 import { getGuidesMetaConfig } from '@/meta.config';
@@ -37,6 +38,10 @@ export default function BlogIndex() {
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                     Comprehensive guides for Terminus Calculator, easter eggs, and gameplay strategies
                 </p>
+            </div>
+
+            <div className="mb-12">
+                <BannerAd pid="7105881377542983" slotId="9159083028" />
             </div>
 
             {/* Guides Grid */}

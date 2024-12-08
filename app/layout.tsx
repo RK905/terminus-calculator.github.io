@@ -6,6 +6,7 @@ import { metaConfig } from "@/meta.config";
 import ShareThisScript from "@/components/script/ShareThisScript";
 import { GoogleTagManager } from "@next/third-parties/google";
 import AdSense from "@/components/script/AdSense";
+import FloatingAds from "@/components/FloatingAds";
 
 export async function generateMetadata(): Promise<Metadata> {
   return metaConfig;
@@ -41,9 +42,17 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={`antialiased bg-[#FAFAFA]`}>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-grow w-full max-w-5xl mx-auto px-2 md:px-4">
-            {children}
-          </main>
+          <div className="flex flex-grow justify-center w-full">
+            <div className="hidden xl:block w-[160px] pt-20">
+              <FloatingAds pid="7105881377542983" slotId="5055352333" side="left" />
+            </div>
+            <main className="flex-grow w-full px-2 md:px-4 min-w-0 max-w-4xl">
+              {children}
+            </main>
+            <div className="hidden xl:block w-[160px] pt-20">
+              <FloatingAds pid="7105881377542983" slotId="3895709138" side="right" />
+            </div>
+          </div>
           <Footer />
         </div>
       </body>

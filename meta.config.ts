@@ -132,8 +132,11 @@ export function getPrivacyMetaConfig(): Metadata {
 
 export function getGuidesMetaConfig(): Metadata {
     return {
-        title: 'BO6 Terminus Calculator Guides & Tutorials | Math Solutions',
+        title: 'BO6 Terminus Calculator Guides & Tutorials',
         description: 'Comprehensive guides for Terminus Calculator, including BO6 math solutions, easter eggs, equation calculator tutorials, and gameplay strategies. Master the Terminus math calculator with our detailed walkthroughs.',
+        alternates: {
+            canonical: `${siteUrl}/guides`,
+        },
         keywords: [
             'terminus calculator',
             'bo6 terminus',
@@ -151,7 +154,7 @@ export function getGuidesMetaConfig(): Metadata {
         openGraph: {
             title: 'BO6 Terminus Calculator Guides & Tutorials',
             description: 'Complete guides and tutorials for Terminus Calculator - Your ultimate resource for BO6 math solutions and gameplay strategies.',
-            url: `${siteUrl}/privacy`,
+            url: `${siteUrl}/guides`,
             siteName: siteTitle,
             images: [
                 {

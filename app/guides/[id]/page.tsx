@@ -7,6 +7,7 @@ import { siteUrl } from '@/meta.config';
 import Image from 'next/image';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import BannerAd from '@/components/BannerAd';
 
 type Props = {
     params: {
@@ -86,6 +87,10 @@ export default async function Post({ params }: Props) {
                     </Button>
                 </div>
             </Card>
+
+            <div className="mb-12">
+                <BannerAd pid="7105881377542983" slotId="5783505874" />
+            </div>
 
             {/* Article Content */}
             <div

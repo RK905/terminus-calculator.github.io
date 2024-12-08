@@ -12,6 +12,7 @@ import { YouTubeEmbed } from "@next/third-parties/google";
 import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import { Calculator, PlayCircle, Zap, Target, Users } from "lucide-react";
+import BannerAd from "@/components/BannerAd";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -48,6 +49,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Banner Ad Section */}
+      <section className="mb-12">
+        <BannerAd pid="7105881377542983" slotId="7780582438" />
+      </section>
+
       {/* Calculator Section */}
       <section className="mb-12" id="calc-title">
         <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">
@@ -58,6 +64,11 @@ export default function Home() {
 
       {/* Stats Section */}
       <Stats />
+
+      {/* Banner Ad Section */}
+      <section className="mb-12">
+        <BannerAd pid="7105881377542983" slotId="8420716426" />
+      </section>
 
       {/* How it Works Section */}
       <section className="mb-12">
@@ -75,6 +86,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Banner Ad Section */}
+      <section className="mb-12">
+        <BannerAd pid="7105881377542983" slotId="9423367988" />
+      </section>
+
       {/* Benefits Section */}
       <section className="mb-12 px-4">
         <Benefits />
@@ -85,9 +101,19 @@ export default function Home() {
         <LatestGuides />
       </section>
 
+      {/* Banner Ad Section */}
+      <section className="mb-12">
+        <BannerAd pid="7105881377542983" slotId="5422012408" />
+      </section>
+
       {/* Reviews Section */}
       <section className="mb-12 px-4">
         <Reviews />
+      </section>
+
+      {/* Banner Ad Section */}
+      <section className="mb-12">
+        <BannerAd pid="7105881377542983" slotId="4108930739" />
       </section>
 
       {/* FAQ Section */}
