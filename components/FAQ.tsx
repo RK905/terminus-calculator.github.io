@@ -1,46 +1,46 @@
 const FAQ = () => {
     const faqList = [
         {
-            question: "What is BO6 in Terminus Calculator?",
-            answer: "BO6 refers to Call of Duty: Black Ops 6, the latest installment in the Black Ops series. In the game's Zombies mode, players encounter various puzzles including the Research Office terminal in the Terminus map, which our calculator is specifically designed to solve."
+            question: "What is the Terminus Code Calculator?",
+            answer: "The Terminus Code Calculator is a free tool that instantly solves codes in BO6 Terminus map. It helps you solve Research Office terminal codes, saving 5000 points/essence on your first try. Simply match the symbols and get your code solution immediately."
         },
         {
-            question: "What is the Terminus Calculator?",
-            answer: "The Terminus Calculator is a precision tool for solving in-game Research Office puzzles. It converts terminal symbols into exact numerical sequences, helping you save valuable essence and time. Simply match the symbols you find in-game to get instant results."
+            question: "How do I find and solve BO6 Terminus codes?",
+            answer: "To solve BO6 Terminus codes: 1) Find the three laptops in Research Office, 2) Input the symbols into our Terminus Code Calculator, 3) Get your instant code solution. Our calculator works for all Terminus codes in Black Ops 6."
         },
         {
-            question: "How do I save essence with this calculator?",
-            answer: "By using our calculator to get the correct code on your first try, you'll save 5000 essence that would otherwise be spent on failed attempts. This makes the Terminus Calculator an essential resource for efficient gameplay."
+            question: "How does the Terminus Easter Egg Code Solver work?",
+            answer: "Our Terminus Easter Egg Code Solver provides instant solutions for the Research Office puzzle. Match the three terminal symbols in our calculator, and get your Easter Egg code immediately. 100% accurate for all Terminus Easter Egg codes."
         },
         {
-            question: "What makes this calculator reliable?",
-            answer: "Our calculator uses verified mathematical formulas that have been extensively tested by experienced players. Each calculation is precise and matches the in-game requirements perfectly, ensuring you get accurate results every time."
+            question: "Where do I find Terminus codes in the game?",
+            answer: "Terminus codes are found at three laptop locations in the Research Office: main entrance, upper floor, and research lab. Use our Terminus Code Calculator after finding all symbols to get your solution."
         },
         {
-            question: "Can I use this calculator during gameplay?",
-            answer: "Yes! Our calculator features a mobile-friendly design that works smoothly on all devices. The interface is optimized for quick symbol selection and clear number display, perfect for real-time use during your gaming sessions."
+            question: "Why use our Terminus Code Solver?",
+            answer: "The Terminus Code Solver saves you 5000 points by providing instant, accurate code solutions. It's the most reliable way to solve Terminus codes, with continuous updates for all terminal and Easter Egg codes."
         },
         {
-            question: "How do I input the symbols correctly?",
-            answer: "Look for three distinct symbols at the Research Office terminal. Match these with the corresponding options in our calculator's X, Y, and Z sections. The calculator will automatically generate your numerical sequence once all symbols are selected."
+            question: "Is this calculator updated for BO6?",
+            answer: "Yes, our BO6 Terminus Code Calculator is constantly updated to match the latest Black Ops 6 version. We ensure accurate code solutions for all Terminus puzzles, including Easter Egg and terminal codes."
         },
         {
-            question: "What should I do if the code doesn't work?",
-            answer: "First, verify you've selected the exact symbols from your game. Then, ensure you're entering the numbers in the correct sequence. If issues persist, double-check that you're at the right terminal location."
+            question: "How do I use the Terminus Code Calculator?",
+            answer: "Using our Terminus Code Calculator is simple: 1) Find the terminal codes in-game, 2) Match the exact symbols in our calculator, 3) Get your code solution instantly. Perfect for both Easter Egg and regular terminal codes."
         },
         {
-            question: "Is the calculator regularly maintained?",
-            answer: "Yes, we continuously monitor game updates and maintain the calculator to ensure consistent accuracy. Any gameplay changes that affect the puzzle mechanics are promptly reflected in our calculations."
+            question: "What if my Terminus code doesn't work?",
+            answer: "If your Terminus code isn't working: 1) Verify you've matched the exact symbols, 2) Check you're entering the code in the correct order, 3) Make sure you're at the right terminal. Our code solutions are verified for accuracy."
         },
         {
-            question: "Do I need to register or pay to use the calculator?",
-            answer: "No, the Terminus Calculator is completely free to use with no registration required. We believe in providing accessible tools to help all players succeed in their gameplay."
+            question: "Is the Terminus Code Calculator free?",
+            answer: "Yes, our Terminus Code Calculator is completely free. No registration needed to solve Terminus codes, Easter Egg sequences, or terminal puzzles. Just visit our site and start solving codes immediately."
         }
     ]
 
     return (
         <>
-            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Terminus Calculator (BO6) FAQ</h2>
+            <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">Terminus Code Calculator FAQ</h2>
             <div className="space-y-4">
                 {faqList.map((faq, index) => (
                     <details key={index} className="p-4 border rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">

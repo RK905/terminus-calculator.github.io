@@ -2,9 +2,11 @@ import { getPostData, getAllPostIds } from '@/lib/posts';
 import { Metadata } from 'next';
 import { PostData } from '@/types/post';
 import Breadcrumb from '@/components/Breadcrumb';
-import { Clock, Laptop } from 'lucide-react';
+import { ArrowRight, Calculator, Clock, Laptop } from 'lucide-react';
 import { siteUrl } from '@/meta.config';
 import Image from 'next/image';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 type Props = {
     params: {
@@ -67,6 +69,23 @@ export default async function Post({ params }: Props) {
                     fill
                     className="aspect-video" />
             </div>
+
+            {/* Quick Calculator Access */}
+            <Card className="bg-blue-50 p-6 mb-8">
+                <div className="flex items-center justify-between">
+                    <div>
+                        <h3 className="text-xl font-bold mb-2">Need Quick Calculations?</h3>
+                        <p className="text-gray-600">Use our Terminus Code Calculator Now</p>
+                    </div>
+                    <Button asChild>
+                        <a href="/#calc-title" className="flex items-center gap-2">
+                            <Calculator className="w-4 h-4" />
+                            Open Calculator
+                            <ArrowRight className="w-4 h-4" />
+                        </a>
+                    </Button>
+                </div>
+            </Card>
 
             {/* Article Content */}
             <div

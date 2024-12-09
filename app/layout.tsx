@@ -19,6 +19,24 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {/* <MultitagScript /> */}
         <AdSense pid="7105881377542983" />
         <ShareThisScript id="672ba513d01e2b0012552a27" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Terminus Calculator",
+              "applicationCategory": "Game Tool",
+              "operatingSystem": "Any",
+              "description": "Free calculator for solving Terminus codes in Black Ops 6",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            })
+          }}
+        />
       </head>
       <body className={`antialiased bg-[#FAFAFA]`}>
         <div className="flex flex-col min-h-screen">

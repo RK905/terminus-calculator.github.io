@@ -3,32 +3,32 @@
 import { Metadata } from "next";
 import { isDevelopment } from "./lib/utils";
 
-const siteTitle = "Terminus Calculator (BO6) | Code Solver & Easter Egg Guide";
+const siteTitle = "Terminus Code Calculator | BO6 Easter Egg Solver";
 const siteTitleTemplate = "Terminus Calculator (BO6)";
-const siteDescription = "Free Terminus Calculator for Black Ops 6 Zombies. Instantly solve the Easter Egg math puzzle and save 5000 points/essence. Skip BEAM SMASHER cost with this simple calculator for Terminus map. Fast, accurate and free to use.";
+const siteDescription = "Free Terminus code calculator for Black Ops 6 Zombies. Instantly solve Easter Egg puzzles and save 5000 points. Get Research Office terminal solutions and XYZ coordinates.";
 
 export const siteUrl = isDevelopment() ? "http://localhost:3000" : "https://terminus-calculator.github.io";
 
 export const metaConfig: Metadata = {
     title: {
         default: siteTitle,
-        template: `%s | ${siteTitleTemplate}`,
+        template: `%s | Terminus Calculator (BO6)`,
     },
     description: siteDescription,
-    keywords: "terminus calculator, terminus code calculator, bo6 terminus calculator, terminus easter egg calculator, terminus xyz calculator, black ops 6 zombies, easter egg solver, save 5k points terminus, beam smasher calculator, terminus puzzle solver, bo6 terminus math",
+    keywords: 'terminus code, bo6 terminus code, terminus easter egg code solver, terminus calculator, bo6 code solver, terminus xyz calculator',
     verification: {
         google: 'lTwaQTJ2H6vMNYMUd9ooaLxzvssiGoQEuoRdsOYNX8g',
     },
     openGraph: {
         title: siteTitle,
-        description: siteDescription,
+        description: 'Free calculator for Terminus codes. Save 5000 points instantly with our Research Office terminal puzzle solver.',
         url: `${siteUrl}/`,
         siteName: siteTitle,
         images: [
             {
                 url: `${siteUrl}/logo.svg`,
-                width: 512,
-                height: 512,
+                width: 1200,
+                height: 630,
                 alt: siteTitle,
             },
         ],

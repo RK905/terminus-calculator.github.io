@@ -1,6 +1,6 @@
 ---
 title: "How to Activate Laptops in Terminus Map - BO6 Guide"
-date: "2024-10-09"
+date: "2024-12-10"
 image: "/images/terminus-map.jpeg"
 readTime: "5 min"
 description: "Complete guide to finding and activating laptops in the Terminus map. Learn exact locations, step-by-step activation process, and how to use the Terminus Calculator for solving XYZ equations in BO6 Zombies."

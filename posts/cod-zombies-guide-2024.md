@@ -1,6 +1,6 @@
 ---
 title: "Call of Duty Zombies Guide 2024"
-date: "2024-10-11"
+date: "2024-12-10"
 image: "/images/cod-zombies-guide-2024.jpg"
 readTime: "5 min"
 description: "Complete Call of Duty Zombies guide for 2024, featuring in-depth strategies for Modern Warfare and Black Ops series. Learn essential survival tips, map tactics, Easter eggs, weapon upgrades, and advanced mechanics to dominate the undead. Master key techniques with our comprehensive walkthrough."

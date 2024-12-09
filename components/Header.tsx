@@ -10,28 +10,25 @@ const Header = () => {
                 <a href="/" className="flex items-center">
                     <Image
                         src="/logo.svg"
-                        alt="Terminus Calculator Icon"
+                        alt="Terminus Calculator"
                         width={32}
                         height={32}
                         className="mr-2"
                     />
                     <span className="text-2xl font-bold">Terminus Calculator</span>
                 </a>
-                <nav className="hidden md:flex">
-                    <ul className="flex space-x-4">
-                        <li><Button variant="ghost" asChild><a href="/guides">BO6 Guides</a></Button></li>
-                        <li><Button variant="ghost" asChild><a href="/about">About</a></Button></li>
-                    </ul>
+                
+                <nav className="hidden md:flex space-x-4">
+                    <Button variant="ghost" asChild>
+                        <a href="/guides">Tutorials</a>
+                    </Button>
+                    <Button variant="ghost" asChild>
+                        <a href="/#faq">FAQ</a>
+                    </Button>
                 </nav>
-                {/* <div className="hidden md:flex">
-                    <LocaleSwitcher />
-                </div> */}
-
-                {/* Mobile Menu */}
-                {/* <MobileMenu /> */}
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;

@@ -1,6 +1,6 @@
 ---
 title: "Complete Guide: Terminus Easter Egg Code Solver for Black Ops 6 Zombies"
-date: "2024-10-12"
+date: "2024-12-10"
 image: "/images/complete-guide-terminus-easter-egg-code-solver-bo6.jpeg"
 readTime: "5 min"
 description: "Master the Terminus Easter Egg code in Black Ops 6 with our comprehensive guide. Learn how to solve math puzzles efficiently using the online calculator and step-by-step solutions."

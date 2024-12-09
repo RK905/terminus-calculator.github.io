@@ -24,7 +24,7 @@ const HowItWorks = () => {
         <section className="py-12 px-4">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-8">
-                    How to Use Terminus Calculator (BO6)
+                    How to Use Terminus Code Calculator (BO6)
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-8">

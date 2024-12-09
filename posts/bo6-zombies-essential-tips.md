@@ -1,6 +1,6 @@
 ---
 title: "Essential Tips for BO6 Zombies Mode - Complete Guide"
-date: "2024-10-10"
+date: "2024-12-09"
 image: "/images/bo6-zombies-guide.jpeg"
 readTime: "10 min"
 description: "Master Zombies mode in Black Ops 6 with our comprehensive guide covering essential tips, weapon strategies, and survival tactics."

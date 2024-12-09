@@ -28,7 +28,7 @@ const Benefits = () => {
         <section className="py-12 px-4">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-4">
-                    Why Use Our Terminus Calculator
+                    Why Use Our Terminus Code Calculator
                 </h2>
 
                 <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
