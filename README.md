@@ -1,41 +1,64 @@
-# Terminus Calculator (BO6) | Code Solver & Easter Egg Guide
+# Terminus Calculator | Free BO6 Code & Easter Egg Tool
 
-A specialized calculator tool for Terminus, featuring code solutions, Easter Egg calculations, and XYZ coordinate solving capabilities.
-
-## Key Features
-
-- **Code Calculator**: Quickly solve Terminus codes
-- **Code Solver**: Get instant code solutions
-- **Easter Egg Calculator**: Calculate Easter Egg solutions
-- **XYZ Calculator**: Precise XYZ coordinate calculations
-
-## Try It Now
-
-Visit: [https://terminus-calculator.github.io/](https://terminus-calculator.github.io/)
-
-## How It Works
-
-1. Choose your calculator type:
-   - Code calculator/solver
-   - Easter egg calculator
-   - XYZ coordinate calculator
-2. Input your values
-3. Get instant results
-
-## Tutorial
-
-Watch our tutorial video for detailed instructions:
+The most comprehensive calculator for Black Ops 6 Terminus map. Solve codes, calculate XYZ coordinates, and complete Easter Eggs with ease.
 
 [![Terminus Calculator Tutorial](https://img.youtube.com/vi/kJYTyNwMyQE/0.jpg)](https://www.youtube.com/watch?v=kJYTyNwMyQE)
 
-## FAQ
+## 🧮 All-in-One Calculator
 
-### Which calculators are available?
-We offer code calculation, code solving, Easter Egg calculation, and XYZ coordinate calculation tools.
+- **Code Solutions**: Research Office terminals
+- **XYZ Calculator**: Coordinate solutions
+- **Easter Egg Helper**: Step-by-step guidance
+- **Point Saver**: Skip 5000 point costs
 
-### How do I use the code calculator/solver?
-Simply input your code values and get immediate solutions.
+## ⚡ Instant Calculations
+
+1. Access [Calculator](https://terminus-calculator.github.io/)
+2. Input game symbols
+3. Get immediate results
+4. Complete objectives
+
+## 💡 Calculator Features
+
+- **Visual Interface**: Easy symbol matching
+- **Multi-Purpose**: Codes, coordinates, sequences
+- **Mobile Optimized**: Use while playing
+- **Always Updated**: Latest patterns supported
+
+## 🎮 Game Integration
+
+- Perfect for solo play
+- Ideal for team coordination
+- Works on all devices
+- No downloads needed
+
+## 📱 Usage Guide
+
+1. Find in-game symbols
+2. Match on calculator
+3. Get verified solutions
+4. Progress faster
+
+## 🌟 User Reviews
+
+"Essential BO6 tool!" - @TerminusPlayer
+"Best calculator out there" - @ZombiesPro
+"Makes Easter Eggs easy" - @CodeHunter
+
+## 🔗 Quick Links
+
+- [Calculator Tool](https://terminus-calculator.github.io/)
+- [Video Guide](https://terminus-calculator.github.io/#tutorial)
+- [Support FAQ](https://terminus-calculator.github.io/#faq)
+
+## 🤝 Support
+
+Questions? Check our FAQ or join the community!
+
+## 📝 License
+
+MIT License - Free for everyone!
 
 ---
 
-*Keywords: terminus calculator, terminus code calculator, terminus code solver, terminus easter egg calculator, terminus xyz calculator*
+Try our calculator at [terminus-calculator.github.io](https://terminus-calculator.github.io/) 

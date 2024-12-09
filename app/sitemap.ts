@@ -41,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${siteUrl}/guides/${post.id}`,
         lastModified: post.date,
         changeFrequency: 'weekly',
-        priority: 0.8,
+        priority: 0.9,
     }))
 
     return [...base, ...posts];
