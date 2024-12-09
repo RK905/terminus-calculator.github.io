@@ -1,3 +1,4 @@
+import { isDevelopment } from "@/lib/utils";
 import Script from "next/script";
 
 type AdSenseProps = {
@@ -5,6 +6,9 @@ type AdSenseProps = {
 }
 
 const AdSense = ({ pid }: AdSenseProps) => {
+    
+    if (isDevelopment()) return null;
+
     return (
         <Script
             async
