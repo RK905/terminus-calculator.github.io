@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://terminus-calculator.github.io/sitemap.xml
